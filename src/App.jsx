@@ -1,6 +1,10 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Features from './components/Features'
+import SocialProof from './components/SocialProof'
+import HowItWorks from './components/HowItWorks'
+import Pricing from './components/Pricing'
+import FAQ from './components/FAQ'
 import CTA from './components/CTA'
 
 function App() {
@@ -9,7 +13,11 @@ function App() {
       <Navbar />
       <main>
         <Hero />
+        <SocialProof />
         <Features />
+        <HowItWorks />
+        <Pricing />
+        <FAQ />
         <CTA />
       </main>
       <footer className="py-10 text-center text-sm text-slate-500">
